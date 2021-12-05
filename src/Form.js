@@ -37,8 +37,7 @@ class Form extends Component {
         }
         break;
       }
-      default:
-        console.log("Sorry");
+     
       case "candAge": {
         if (!value) {
           errors.candAge = "Age is Required";
@@ -49,8 +48,7 @@ class Form extends Component {
         }
         break;
       }
-      default:
-        console.log("Sorry");
+     
       case "roleApplied": {
         if (!value) {
           errors.roleApplied = "Role is Required";
@@ -59,8 +57,7 @@ class Form extends Component {
         }
         break;
       }
-      default:
-        console.log("Sorry");
+      
       case "termsCond": {
         if (!value) {
           errors.termsCond = "Accept T&C";
